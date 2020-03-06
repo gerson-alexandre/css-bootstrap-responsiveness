@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+    margin: 0px;
+}
+
+header,
+nav,
+aside,
+section,
+article,
+footer {
+    text-align: center;
+    background-color: lightgreen;
+    width: 97%;
+    height: 4em;
+    margin: 0 1.5% 20px 1.5%; 
+    border-radius: 10px;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 30vh;
+}
+
+section {
+    
+    float: right;
+    width: 64%;
+    height: 30vh;
+}
+
+article {
+    float: left;
+    width: 30.3333%;
+    height: 30vh;
+}
+
+
+footer {
+    clear: both;
+    height:120vh;
+}
+
+@media all and (max-width:400px){
+    nav,
+    section,
+    article,
+    header{
+        float: none;
+        width: auto;
+        background-color: blue;
+    }
+    
+  
+}
